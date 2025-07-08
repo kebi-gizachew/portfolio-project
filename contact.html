@@ -8,31 +8,35 @@
 <body>
     <header>
         <nav>
-            <a href="./about.html">About Us</a>
-            <a href="#first_topic">Front-Page</a>
-            <a href="https://github.com/kebi-gizachew">My Github Page</a>
+            <a href="./about.html" target="_blank">About Us</a>
+            <a href="#first_topic">Front-Topic</a>
+            <a href="#second_topic">Last-Topic</a>
+            <a href="https://github.com/kebi-gizachew" target="_blank">My Github Page</a>
+            <a href="https://" target="_blank">For your information</a>
         </nav>
+         <h2>Contact Us</h2>
     </header>
     <main>
         <section id="first_topic">
-            <h2>Contact Us</h2>
   <p>If you have any questions, feedback, or inquiries, feel free to reach us out using the form below.</p>
         </section>
         <section id="form">
             <form action="submit">
+                <div class="texts">
             <label style="display:block;" for="name">Enter your first name: 
                 <input placeholder="eg. Kebron" type="text" name="name" id="name" value="name" required/>
             </label>
             <label style="display:block;" for="lastname">Enter your last name: 
                 <input type="text" id="lastname" name="lastname" value="lastname" placeholder="eg. Selamu" required/>
             </label>
+            </div>
              <label style="display:block;" for="birthdate">Enter your date of birth: 
                 <input type="date" id="birthdate" name="birthdate" value="birthdate" />
             </label>
             <label style="display:block;" for="email">Enter your email: 
                 <input type="email" name="email" value="email" placeholder="eg. kebisel21@gmail.com" required id="email"/>
             </label>
-            <legend>Are you married? </legend>
+            <legend>Are you <span style="font-weight:bold;">married</span>? </legend>
             <label style="display:block;" for="yes"><input id="yes" type="radio" name="marraige" value="yes" checked/>Yes</label>
             <label for="no" style="display:block;"><input id="no" name="marraige" value="no" type="radio"/>No</label>
             <legend>How did you hear about us? </legend>
@@ -48,7 +52,10 @@
            
         </form>
         </section>
+        <img src="./picture/pexels-thanks-883466.jpg" alt="thanks picture" style="width:200px; height:300px;"> 
     </main>
-    <footer></footer>
+    <footer>
+        <p>2025 GreenHouse_Biodegradable. All rights reserved.</p>
+    </footer>
 </body>
 </html>
