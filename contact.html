@@ -20,7 +20,25 @@
         </section>
         <section id="form">
             <form action="submit">
-            <label for="name">Enter your first name: <input placeholder="eg. Kebron" required type="text" name="name" id="name" value="name"/></label>
+            <label for="name">Enter your first name: 
+                <input placeholder="eg. Kebron" type="text" name="name" id="name" value="name" required/>
+            </label>
+            <label for="lastname">Enter your last name: 
+                <input type="text" id="lastname" name="lastname" value="lastname" placeholder="eg. Selamu" required/>
+            </label>
+             <label for="birthdate">Enter your date of birth: 
+                <input type="date" id="birthdate" name="birthdate" value="birthdate" />
+            </label>
+            <label for="email">Enter your email: 
+                <input type="email" name="email" value="email" placeholder="eg. kebisel21@gmail.com" required id="email"/>
+            </label>
+            <legend>Are you married? </legend>
+            <label for="yes"><input id="yes" type="radio" name="marraige" value="yes" checked/>Yes</label>
+            <label for="no"><input id="no" name="marraige" value="no" type="radio"/>No</label>
+            <label for="text">Put your comment: 
+                <textarea id="text" placeholder="eg. I like your products..." row="10" cols="30"></textarea>
+            </label>
+           
         </form>
         </section>
     </main>
