@@ -10,7 +10,7 @@
         <nav>
             <a href="./about.html">About Us</a>
             <a href="#first_topic">Front-Page</a>
-            <a href="https://">My Github Page</a>
+            <a href="https://github.com/kebi-gizachew">My Github Page</a>
         </nav>
     </header>
     <main>
@@ -20,22 +20,29 @@
         </section>
         <section id="form">
             <form action="submit">
-            <label for="name">Enter your first name: 
+            <label style="display:block;" for="name">Enter your first name: 
                 <input placeholder="eg. Kebron" type="text" name="name" id="name" value="name" required/>
             </label>
-            <label for="lastname">Enter your last name: 
+            <label style="display:block;" for="lastname">Enter your last name: 
                 <input type="text" id="lastname" name="lastname" value="lastname" placeholder="eg. Selamu" required/>
             </label>
-             <label for="birthdate">Enter your date of birth: 
+             <label style="display:block;" for="birthdate">Enter your date of birth: 
                 <input type="date" id="birthdate" name="birthdate" value="birthdate" />
             </label>
-            <label for="email">Enter your email: 
+            <label style="display:block;" for="email">Enter your email: 
                 <input type="email" name="email" value="email" placeholder="eg. kebisel21@gmail.com" required id="email"/>
             </label>
             <legend>Are you married? </legend>
-            <label for="yes"><input id="yes" type="radio" name="marraige" value="yes" checked/>Yes</label>
-            <label for="no"><input id="no" name="marraige" value="no" type="radio"/>No</label>
-            <label for="text">Put your comment: 
+            <label style="display:block;" for="yes"><input id="yes" type="radio" name="marraige" value="yes" checked/>Yes</label>
+            <label for="no" style="display:block;"><input id="no" name="marraige" value="no" type="radio"/>No</label>
+            <legend>How did you hear about us? </legend>
+            <label for="facebook">
+                <input type="checkbox" value="facebook" name="facebook" id="facebook"/>Facebook</label>
+            <label for="instagram">
+                    <input type="checkbox" name="instagram" value="instagram" id="instagram" checked/>Instagram</label>
+            <label for="tiktok">
+                <input type="checkbox" name="tiktok" value="tiktok" id="tiktok"/>TikTok</label>
+            <label style="display:block;" for="text">Put your comment: 
                 <textarea id="text" placeholder="eg. I like your products..." row="10" cols="30"></textarea>
             </label>
            
